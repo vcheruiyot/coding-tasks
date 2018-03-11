@@ -142,7 +142,7 @@ void decode_huff(node * root, string s)
 /*
  * Lowest common ancestor problem. This is my implementation 
  * attempting to use 0(1) space and 0(n) time. The implementation
- * doesn't is correct for most lca problems but fails when the 
+ * is correct for most lca problems but fails when
  * v1 is the parent node of v2. My next task is to debug it. 
  * Will implement using disjointed-set forest 
  */

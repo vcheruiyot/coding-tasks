@@ -18,7 +18,8 @@ int get_occurrence(char *delimiter, char **strings, int N){
 	}
 	return count;
 }
-void find_occurrences(char **strings, char **queries, int string_len, int queries_len){
+void find_occurrences(char **strings, char **queries, int string_len, int 
+queries_len){
 	for(int i = 0; i < queries_len; i++){
 		int occurrence = get_occurrence(queries[i], strings, string_len);
 		printf("%d\n", occurrence);
@@ -75,7 +76,8 @@ char* readline() {
 
         data_length += strlen(cursor);
 
-        if (data_length < alloc_length - 1 || data[data_length - 1] == '\n') { break; }
+        if (data_length < alloc_length - 1 || data[data_length - 1] == '\n') { 
+break; }
 
         size_t new_length = alloc_length << 1;
         data = realloc(data, new_length);

@@ -1,7 +1,7 @@
 # A simple makefile for building a program composed of C source files.
 # Refer to CS107 guide to Make for background info on makefiles
 
-PROGRAMS = sparse_arrays verify_password remove_duplicates
+PROGRAMS = sparse_arrays verify_password alternating_character remove_substr
 all:: $(PROGRAMS)
 
 CC = gcc
